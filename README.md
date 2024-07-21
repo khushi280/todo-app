@@ -1,21 +1,19 @@
-Project Overview
+Project Overview:
 This Todo application is built using Node.js/Nest.js as the backend framework and MongoDB as the NoSQL database. It provides a RESTful API with CRUD (Create, Read and Delete) endpoints for managing tasks. The project includes optional user authentication and authorization, search functinality, and unit tests to ensure code quality.
 
-Features
+Features:-
 Task Management: Create, read,  and delete tasks.
 User Authentication: Optional user authentication and authorization.
 Search functinality: Comprehensive search for the todos.
 Unit Testing: Unit tests to ensure code quality and functionality.
 
-Prerequisites
+Prerequisites:-
 Node.js (v14.x or later)
 MongoDB (v4.x or later)
 npm (v6.x or later)
 
-Installation
+
 Clone the repository:
-
-
 git clone https://github.com/khushi280/todo-app.git
 Install dependencies:
 cd frontend
@@ -26,10 +24,7 @@ Set up environment variables:
 Create a .env file in the root directory and add the following variables:
 
 env
-Copy code
-MONGO_URI=mongodb://localhost:27017/todoapp
-JWT_SECRET=your_jwt_secret
-Run the application:
+
 MONGO_URI=Your mongo url
 GMAIL_USERNAME=Your gmail username
 GMAIL_PASSWORD=Your app password
@@ -171,10 +166,13 @@ npm run test
 
 
 ![image](https://github.com/user-attachments/assets/ad206672-0666-4e54-b26f-2964c9bcfbd9)
+
 ![image](https://github.com/user-attachments/assets/6eb8cf3c-b6a9-4955-9a8a-eefe5fe82082)
 
 ![image](https://github.com/user-attachments/assets/ed44c256-1605-4004-8e96-f9a38d24be95)
+
 ![image](https://github.com/user-attachments/assets/b4063435-6eec-452b-8e42-80de8e3c36b8)
+
 ![image](https://github.com/user-attachments/assets/fd8556c0-79bc-4f51-8b0e-8c3a1109c92c)
 
 
@@ -186,5 +184,8 @@ If you would like to contribute to this project, please fork the repository and 
 
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
+
+Deployed Link
+https://todo-q6jj9tjs6-khushi280s-projects.vercel.app/
 
 Feel free to reach out if you have any questions or need further assistance. Enjoy building with the Todo application!

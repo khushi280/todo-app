@@ -2,6 +2,7 @@ Project Overview:
 This Todo application is built using Node.js/Nest.js as the backend framework and MongoDB as the NoSQL database. It provides a RESTful API with CRUD (Create, Read and Delete) endpoints for managing tasks. The project includes optional user authentication and authorization, search functinality, and unit tests to ensure code quality.
 
 Features:-
+
 Task Management: Create, read,  and delete tasks.
 User Authentication: Optional user authentication and authorization.
 Search functinality: Comprehensive search for the todos.
@@ -192,6 +193,6 @@ License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 Deployed Link
-https://todo-q6jj9tjs6-khushi280s-projects.vercel.app/
+https://todo-app-git-main-khushi280s-projects.vercel.app/
 
 Feel free to reach out if you have any questions or need further assistance. Enjoy building with the Todo application!

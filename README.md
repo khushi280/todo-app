@@ -70,11 +70,7 @@ This Todo application is built using Node.js as the backend framework and MongoD
 
 3. The application should now be running on `http://localhost:3000`.
    
-4.2. Start the frontend  with the following command:
-    ```sh
-    npm install
-    npm start
-    ``` 
+
 
 ## API Documentation
 
@@ -184,11 +180,7 @@ The base URL for all endpoints is `http://localhost:8001/api`.
 
 All endpoints will return appropriate HTTP status codes and error messages for invalid requests, authentication failures, or server issues.
 
-## Running Tests
 
-To run the unit tests, use the following command:
-```sh
-npm run test
 
 
 

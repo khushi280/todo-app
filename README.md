@@ -15,10 +15,13 @@ npm (v6.x or later)
 
 Clone the repository:
 git clone https://github.com/khushi280/todo-app.git
+
 Install dependencies:
 cd frontend
 npm install
 npm start
+
+
 Set up environment variables:
 
 Create a .env file in the root directory and add the following variables:
@@ -31,9 +34,12 @@ GMAIL_PASSWORD=Your app password
 PORT=8000
 JWT_SECRET=thisisasecretkey
 
+
 To set up the backend
 npm install
 node server.js
+
+
 The application should now be running on http://localhost:3000.
 
 API Documentation

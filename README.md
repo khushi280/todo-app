@@ -1,5 +1,5 @@
 Project Overview:
-This Todo application is built using Node.js/Nest.js as the backend framework and MongoDB as the NoSQL database. It provides a RESTful API with CRUD (Create, Read and Delete) endpoints for managing tasks. The project includes optional user authentication and authorization, search functinality, and unit tests to ensure code quality.
+This Todo application is built using Node.js as the backend framework and MongoDB as the NoSQL database. It provides a RESTful API with CRUD (Create, Read and Delete) endpoints for managing tasks. The project includes optional user authentication and authorization, search functinality, and unit tests to ensure code quality.
 
 Features:-
 

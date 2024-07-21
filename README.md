@@ -15,8 +15,7 @@ npm (v6.x or later)
 Installation
 Clone the repository:
 
-bash
-Copy code
+
 git clone https://github.com/khushi280/todo-app.git
 Install dependencies:
 cd frontend
@@ -56,7 +55,7 @@ Description: Register a new user.
 Request Body:
 
 json
-Copy code
+
 {
     "username": "newuser",
     "password": "password"
@@ -75,7 +74,7 @@ Description: Authenticate a user and return a JWT token.
 Request Body:
 
 json
-Copy code
+
 {
     "username": "existinguser",
     "password": "password"
@@ -94,7 +93,7 @@ Description: Initiates the password reset process.
 Request Body:
 
 json
-Copy code
+
 {
     "email": "user@example.com"
 }
@@ -114,7 +113,7 @@ Description: Create a new task.
 Request Body:
 
 json
-Copy code
+
 {
     "title": "New Task",
     "description": "This is a new task",
@@ -165,12 +164,21 @@ All endpoints will return appropriate HTTP status codes and error messages for i
 
 Running Tests
 To run the unit tests, use the following command:
-
 npm run test
+
+
 **Screenshots**
 
 
 ![image](https://github.com/user-attachments/assets/ad206672-0666-4e54-b26f-2964c9bcfbd9)
+![image](https://github.com/user-attachments/assets/6eb8cf3c-b6a9-4955-9a8a-eefe5fe82082)
+
+![image](https://github.com/user-attachments/assets/ed44c256-1605-4004-8e96-f9a38d24be95)
+![image](https://github.com/user-attachments/assets/b4063435-6eec-452b-8e42-80de8e3c36b8)
+![image](https://github.com/user-attachments/assets/fd8556c0-79bc-4f51-8b0e-8c3a1109c92c)
+
+
+
 
 
 Contributing

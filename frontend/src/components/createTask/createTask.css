@@ -1,0 +1,36 @@
+/* createTask.css */
+
+.addContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+form {
+    width: 100%;
+}
+
+input, textarea, button {
+    transition: all 0.3s ease;
+}
+
+input:focus, textarea:focus, button:focus {
+    outline: none;
+    box-shadow: 0 0 5px var(--primary-color);
+}
+
+.toast {
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@keyframes fadein {
+    from { bottom: 0; opacity: 0; } 
+    to { bottom: 30px; opacity: 1; }
+}
+
+@keyframes fadeout {
+    from { bottom: 30px; opacity: 1; }
+    to { bottom: 0; opacity: 0; }
+}

@@ -1,4 +1,4 @@
-# Todo-App Backend
+# Todo-App 
 
 This Todo application is built using Node.js as the backend framework and MongoDB as the NoSQL database. It provides a RESTful API with CRUD (Create, Read, and Delete) endpoints for managing tasks. The project includes optional user authentication and authorization, search functionality, and unit tests to ensure code quality.
 
@@ -13,7 +13,6 @@ This Todo application is built using Node.js as the backend framework and MongoD
   - [Task Management](#task-management)
   - [Error Handling](#error-handling)
 - [Running Tests](#running-tests)
-- [Project Structure](#project-structure)
 - [Screenshots](#screenshots)
 - [Contributing](#contributing)
 - [License](#license)
@@ -70,6 +69,12 @@ This Todo application is built using Node.js as the backend framework and MongoD
     ```
 
 3. The application should now be running on `http://localhost:3000`.
+   
+4.2. Start the frontend  with the following command:
+    ```sh
+    npm install
+    npm start
+    ``` 
 
 ## API Documentation
 
@@ -184,6 +189,11 @@ All endpoints will return appropriate HTTP status codes and error messages for i
 To run the unit tests, use the following command:
 ```sh
 npm run test
+
+
+
+
+
 
 **Screenshots**
 
